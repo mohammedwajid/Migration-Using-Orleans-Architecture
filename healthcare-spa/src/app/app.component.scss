@@ -1,0 +1,29 @@
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+
+  h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+
+      &.active {
+        text-decoration: underline;
+      }
+    }
+  }
+}

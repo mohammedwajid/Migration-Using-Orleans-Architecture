@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@microsoft/signalr": "^9.0.6",
+    "bootstrap": "^5.3.8"
+  }
+,
+  "scripts": {
+  "start": "ng serve --proxy-config proxy.conf.json",
+  "build": "ng build",
+  "test": "ng test"
+}
+
+}
